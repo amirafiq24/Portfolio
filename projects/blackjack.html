@@ -21,16 +21,13 @@
         <img src="../assets/images/blackjack.gif" class="project-detail-image">
 
         <p class="project-detail-text">
-            I built a Blackjack-playing AI that learns entirely through experience, 
-            training itself by playing thousands of simulated games. Instead of being 
-            programmed with fixed rules, the agent gradually discovers when to hit or 
-            stick by observing which choices lead to better outcomes over time. After 
-            enough practice, it develops strategy patterns that closely match optimal 
-            Blackjack play, even in tricky situations like dealing with strong dealer 
-            cards or managing soft hands. In the end, the agent reaches a stable win 
-            rate near the theoretical best, making the project a fun and rewarding 
-            demonstration of how reinforcement learning can teach an AI to make smart 
-            decisions.
+            I built a Blackjack playing AI that learns entirely through experience by playing thousands of 
+            simulated games. Instead of relying on fixed rules, the agent learns when to hit or stick by 
+            observing which actions lead to better outcomes over time. As training continues, it begins to 
+            form strategies that closely match optimal Blackjack play, even in more challenging situations 
+            such as strong dealer cards. By the end of training, the agent reaches a stable win 
+            rate close to the theoretical best, showing how reinforcement learning can be used to train an AI 
+            to make effective decisions.
         </p>
 
     </div>
@@ -50,7 +47,7 @@
             <h2>Implementation</h2>
             <ul>
                 <li>Uses Q learning to evaluate state action values</li>
-                <li>Updates the Q table after each outcome</li>
+                <li>Selects actions using visit based exploration strategy</li>
                 <li>Learns when to hit or stick based on long term rewards</li>
             </ul>
         </div>
@@ -69,15 +66,44 @@
             <h2>What I Learned</h2>
             <ul>
                 <li>Reinforcement learning fundamentals</li>
-                <li>Exploration versus exploitation tuning</li>
+                <li>Exploration versus exploitation tradeoffs</li>
                 <li>Analyzing training patterns and agent performance</li>
             </ul>
         </div>
     </div>
 
     <div class="project-detail-extra">
-        <p class="project-detail-tech-used">Technologies Used: </p>
+        <p class="project-detail-tech-used">Built With:</p>
         <p>  Python, Gymnasium (Blackjack-v1 environment)</p>
+    </div>
+
+    <div class="footer-container">
+        <div class="footer-separator">
+            <div class="footer-connect">
+                <h2 class="footer-header-text">Connect with me!</h2>
+                <div class="footer-connect-image">
+                    <a href="https://www.linkedin.com/in/amirafiqariff" class="footer-link">
+                        <img src="../assets/images/linkedin.png" alt="LinkedIn" class="footer-image">
+                    </a>
+                    <a href="mailto:amirafiqariff@gmail.com" class="footer-link">
+                        <img src="../assets/images/gmail.png" alt="LinkedIn" class="footer-image">
+                    </a>
+                    <a href="https://github.com/amirafiq24" class="footer-link">
+                        <img src="../assets/images/github.png" alt="LinkedIn" class="footer-image">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-resume">
+                <h2 class="footer-header-text">Download my resume</h2>
+                <a href="../assets/AmirAfiq-Resume.pdf" download class="footer-link">
+                    <img src="../assets/images/resume.webp" alt="Resume" class="footer-image">
+                </a>
+            </div>
+        </div>
+        <p class="footer-text">
+            © 2024 Amir Afiq. All rights reserved.
+        </p>
     </div>
 
 </body>
