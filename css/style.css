@@ -784,7 +784,7 @@ body {
 }
 
 /* Mobile layout */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
     .intro-container {
         flex-direction: column;
@@ -831,11 +831,11 @@ body {
         align-items: center;
 
         /* remove any leftover desktop spacing */
-        margin-left: 0;
+        margin: 0 30px;
     }
 
     .intro-brief {
-        margin: 20px;
+        margin: 0 40px;
         font-size: 1.1rem;
         line-height: 1.55;
     }
