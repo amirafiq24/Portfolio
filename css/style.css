@@ -926,7 +926,7 @@ body {
     }
 
     .header-text {
-        font-size: clamp(1.8rem, 1.3vw, 1rem);
+        font-size: clamp(1.4rem, 1.2vw, 0.5rem);
     }
 
     .profile-back {
@@ -1177,9 +1177,13 @@ body {
     .project-detail-tech-used {
         display: flex;
         justify-content: center;
-        font-size: clamp(1rem, 4vw, 1.3rem);
+        font-size: clamp(1rem, 2vw, 1rem);
         margin: 0;
         margin-top: 12px;
+    }
+
+    .project-detail-extra p{
+        font-size: clamp(1rem, 2vw, 1rem);
     }
 }
 
