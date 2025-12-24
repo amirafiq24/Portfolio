@@ -784,7 +784,7 @@ body {
 }
 
 /* Mobile layout */
-@media (max-width: 900px) {
+@media (max-width: 600px) {
 
     .intro-container {
         flex-direction: column;
@@ -835,6 +835,7 @@ body {
     }
 
     .intro-brief {
+        margin: 20px;
         font-size: 1.1rem;
         line-height: 1.55;
     }
