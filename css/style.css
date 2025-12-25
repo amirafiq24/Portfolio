@@ -839,6 +839,7 @@ body {
         line-height: 1.05;
 
         padding: 0;
+        margin-left: 0;
     }
 
     .intro-image {
@@ -865,7 +866,7 @@ body {
     }
 
     .intro-brief {
-        margin: 0 80px;
+        margin: 0 12px;
         font-size: 1.1rem;
         line-height: 1.55;
     }
