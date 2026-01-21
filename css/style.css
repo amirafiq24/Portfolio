@@ -175,7 +175,7 @@ body {
 
     margin: 0;
     width: clamp(260px, 23vw, 440px);
-    height: clamp(280px, 23vw, 400px);
+    height: clamp(340px, 22.5vw, 380px);
 }
 
 .project-card {
@@ -193,13 +193,25 @@ body {
     height: 100%;
 }
 
+.project-tag {
+    display: inline-block;
+    background: rgba(7, 63, 12, 0.12);
+    color: rgb(7, 63, 12);
+    font-weight: 700;
+    font-size: clamp(0.7rem, 0.8vw, 0.9rem);
+    padding: 4px 10px;
+    border-radius: 999px;
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
+
 .project-block {
     display: flex;
     align-items: center;
     justify-content: center;
 
     width: 90%;
-    min-height: clamp(160px, 15vw, 240px);
+    padding-top: 2rem;
 }
 
 .project-block h2 {
@@ -231,11 +243,12 @@ body {
     margin-top: 10px;
 
     width: clamp(200px, 20vw, 320px);
-    font-size: clamp(1rem, 1.2vw, 1.4rem);
+    font-size: clamp(1rem, 1.1vw, 1.2rem);
 
     line-height: 1.4;
     color: #2b3a2d;
     opacity: 0.9;
+    margin-bottom: 24px;
 }
 
 .footer-container {
@@ -246,6 +259,7 @@ body {
     justify-content: center;
     align-items: center;
     background: linear-gradient(rgb(7, 63, 12), rgb(5, 50, 10));
+    margin-top: 80px;
 }
 
 .footer-container h2 {
@@ -701,6 +715,10 @@ body {
     margin-left: 1.7vw;
 }
 
+.project-detail-card ul li {
+    margin-bottom: 4px;
+}
+
 .project-detail-extra {
     display: flex;
     flex-direction: row;
@@ -952,6 +970,10 @@ body {
         width: 100%;
         font-size: 1rem;
         margin: 24px;
+    }
+    
+    .footer-container {
+        margin-top: 40px;
     }
 
     .footer-separator {
