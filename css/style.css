@@ -84,7 +84,7 @@ body {
 .intro-brief-container {
     margin-left: 2rem;
     flex: 1 1 520px;
-    min-width: clamp(280px, 40%, 520px);
+    min-width: clamp(200px, 40%, 220px);
     max-width: 1200px;
     width: auto;
 
@@ -100,6 +100,7 @@ body {
     font-weight: bold;
     font-style: oblique;
     line-height: 1.6;
+    margin-bottom: 32px;
 }
 
 .intro-brief-seek {
@@ -112,6 +113,7 @@ body {
 
 
 .intro-brief-container-button {
+    margin-top: 12px;
     background-color: rgb(7, 63, 12);
     color: rgb(245, 255, 235);
     text-decoration: none;
@@ -340,7 +342,7 @@ body {
 
     gap: 4rem;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1000px;
 
     margin: 2rem auto;
 }
@@ -413,7 +415,7 @@ body {
     gap: 1.5vw;
     margin-bottom: 3vw;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -478,7 +480,7 @@ body {
 
     gap: 6rem;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1200px;
     padding: 0 4rem;
 
     margin: 0 auto 1vw auto;
@@ -489,12 +491,12 @@ body {
 }
 
 .profile-detail-h {
-    font-size: clamp(2rem, 4.8vw, 4rem);
+    font-size: clamp(1.8rem, 4.4vw, 4rem);
     font-style: oblique;
 }
 
 .profile-detail-p {
-    font-size: clamp(1rem, 1.6vw, 1.8rem);
+    font-size: clamp(1rem, 1.5vw, 1.8rem);
     line-height: 1.6;
 }
 
@@ -657,14 +659,13 @@ body {
     justify-content: center;
 
     width: 100%;
-    max-width: 1500px;
+    max-width: 1000px;
 
     margin: 0 auto;
 }
 
 .project-detail-image {
-    flex: 1;
-    width: clamp(340px, 30vw, 430px);
+    width: clamp(200px, 25vw, 450px);
     max-width: 430px;
     max-height: 430px;
     border-radius: 20px;
@@ -675,14 +676,15 @@ body {
 .project-detail-text {
     flex: 3;
     max-width: 600px;
-    font-size: clamp(0.8rem, 1.6vw, 1.25rem);
+    font-size: clamp(0.7rem, 1.4vw, 1.2rem);
     line-height: 1.6;
     margin-top: 20px;
     margin-left: 30px;
+    max-width: 500px;
 }
 
 .project-detail-card-row {
-    max-width: 1200px;
+    max-width: 1000px;
     display: flex;
     flex-direction: row;
     gap: 3rem;
@@ -728,7 +730,7 @@ body {
     width: 100%;
     max-width: 1200px;
     margin: 24px auto 24px auto; 
-    padding: 0 20px;
+    padding: 0 8rem;
 }
 
 .project-detail-tech-used {
